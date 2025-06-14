@@ -1,0 +1,9 @@
+
+@theme {
+  --font-lato: 'Lato', 'sans-serif';
+  --font-poppins: 'Poppins', 'sans-serif';
+  --color-primary: rgba(0, 180, 216, 1);
+  --color-primary-hover: rgba(0, 147, 177, 1);
+  --color-dark-primary: rgba(32, 33, 36, 1);
+  --color-dark-secondary: rgba(32, 33, 36, 0.25);
+}
