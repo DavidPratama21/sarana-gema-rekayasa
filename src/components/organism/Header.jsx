@@ -19,9 +19,15 @@ const Header = () => {
             {/* Nav menu */}
             {humMenu && (
                 <nav className="grid text-center p-3 gap-1 bg-dark-primary">
-                    <span className="py-2 rounded text-sm font-semibold text-primary hover:bg-primary/3">Product</span>
-                    <span className="py-2 rounded text-sm font-semibold text-primary hover:bg-primary/3">About Us</span>
-                    <span className="py-2 rounded text-sm font-semibold text-primary hover:bg-primary/3">Contact Us</span>
+                    <span className="py-2 rounded text-sm font-semibold text-primary hover:bg-primary/3">
+                        Product
+                    </span>
+                    <span className="py-2 rounded text-sm font-semibold text-primary hover:bg-primary/3">
+                        About Us
+                    </span>
+                    <span className="py-2 rounded text-sm font-semibold text-primary hover:bg-primary/3">
+                        Contact Us
+                    </span>
                 </nav>
             )}
         </div>

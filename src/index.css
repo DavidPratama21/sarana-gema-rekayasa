@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @theme {
   --font-lato: 'Lato', 'sans-serif';
   --font-poppins: 'Poppins', 'sans-serif';
@@ -5,4 +7,20 @@
   --color-primary-hover: rgba(0, 147, 177, 1);
   --color-dark-primary: rgba(32, 33, 36, 1);
   --color-dark-secondary: rgba(32, 33, 36, 0.25);
+}
+
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('assets/fonts/MonumentExtended-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('assets/fonts/MonumentExtended-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
