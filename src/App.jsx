@@ -12,11 +12,13 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero />
-      <Wave/>
-      <Product />
-      <About/>
-      <Contact_us />
+      <div className='relative top-12 sm:top-14'>
+        <Hero />
+        {/* <Wave/>
+        <Product />
+        <About/>
+        <Contact_us /> */}
+      </div>
       <Footer/>
     </>
   )
